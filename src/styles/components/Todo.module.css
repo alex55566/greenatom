@@ -1,0 +1,69 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.wrapperInner {
+    display: flex;
+    gap: 20px;
+}
+
+.wrapperInnerBtn {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.wrapperInnerBtn > div{
+    display: flex;
+    gap: 20px;
+}
+
+.wrapperTodos {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 60%;
+}
+
+.wrapperTodo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.wrapperBtn {
+    display: flex;
+    gap: 5px
+}
+
+
+
+.isActive {
+    color: black;
+    background-color: #f9f9f9;
+}
+
+.noTodos {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.coloredOdd {
+    background-color: bisque;
+}
+
+.coloredEven {
+    background-color: burlywood;
+}
+
+.isDone {
+    color: white;
+    background-color: #888;
+}

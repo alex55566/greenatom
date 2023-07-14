@@ -1,0 +1,41 @@
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.title {
+    text-align: center;
+}
+
+
+.searchWrapper {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.link {
+    cursor: pointer;
+    background: burlywood;
+    border: 1px solid burlywood;
+    padding: 5px;
+    margin: 5px;
+    list-style-type: none; 
+}
+
+.link > a {
+    display: block;
+    text-decoration: none;
+}
+
+.link > a > span {
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+.error {
+    color: red;
+}
